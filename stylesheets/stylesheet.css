@@ -1,106 +1,38 @@
-
-*{  
-font-family: Arial, Helvetica, sans-serif;
-  margin: auto;
-  border: none;
-}
-
-
-html {
-  height: 100%
+/* Header*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
+  background-color: black;
+  padding: 4rem 0 0.5rem 1.5rem;
+}
+header h1 {
+  color: white;
+  line-height: 0.5rem;
+  background-color: black;
+}
+header h3{
+  color: darkgrey;
+  font-size: 1rem;
+  background-color: black;
+}
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+
+/* Nav and A */
+a {
+  color: red;
+  font-size: 0.9rem; 
+  text-decoration: underline;
+}
+header a {
   float: right;
   position: absolute;
   right: 0.5rem;
   top: 0.5rem;
 }
-
-body {
-  height: 100%;
-  position: relative;
-  min-height: 100%;
-  height: auto!important;
-  
-}
-
-
-article {
-  padding: 0.5rem 1rem 1rem 1rem;
-  clear: both;
-  overflow: auto;
-  margin-right: -1.5rem;
-  position: relative;
-}
-
-
-h1 {
-  color: white;
-  font-size: 2.7rem;
-  letter-spacing: 0.15rem;
-  padding: 0rem 0rem 0.4rem 2rem;
-}
-
-
-h2 {
-  margin-left: 1.5rem;
-  letter-spacing: 0.1rem;
-  padding: 2rem 0rem 1.5rem 1rem;
-}
-
-
-. pricing-title {
-  text-align: center;
-}
-
-
-h4 {
-  color: gray;
-}
-
-
-h1, h4, h3.call-to-action {
-  background-color: black;
-}
-  
-a {
-  color: #b10000;
-}
-
-
-h4 {
-  font-size: 1.3rem;
-  padding: 0rem 1rem 1.5rem 2rem;
-}
-
-
-header {
-  padding-bottom: 1rem;
-}
-
-nav {
-  background-color: #939495;
-  width: 100%;
-  text-align: center;
-  box-shadow: 0rem 0rem 1rem 0rem;
-}
-
-nav a {
-  color: purple;
-}
-
-nav ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0.5rem 2rem 0.7rem 2rem;
-  justify-content: space-around;
-}
-
-nav li {
-  font-size: 1.1rem;
-  display: inline;
-}
-
 nav {
   background-color: lightgrey;
   text-align: center;
@@ -119,83 +51,121 @@ nav li {
 nav a {
   color: darkmagenta;
   text-decoration: underline;
-  font-size: 1rem; 
+  font-size: 0.9rem; 
 }
 
-h3 {
-  display:block;
-  text-align: center;
+/* About Main */
+.about-story, aside {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  background-color:white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2rem 0 3rem 0.5rem;
+  width: 100%;
 }
-
-figcaption {
-  text-align: center;
+main section {
+  box-sizing: border-box;
+  float: left;
+  margin: 0;
+  padding: 0 1rem 0 1rem;
+  width: 65%;
 }
-  
-img {
-  width: 6rem;
-  height: auto;
-  margin: auto;
-  display: block;
-  padding-bottom: 0.5rem;
+.story-paragraph{
+  text-align: left
 }
-
-
-p, p.kittens-to-go-story, p.testimonials {
-  font-size: 1rem; 
-  margin-left: 1.5rem;
-  margin-right: 1rem;
-  line-height: 140%;
-  padding: 0.5rem 0rem 1.5rem 1rem;
-}
-
-
-p.testimonials {
+.testimonilas p {
   font-style: italic;
 }
-
-
-aside {
-  float: right;
-  width: 19rem;
-  border: 0.1em solid black;
-  align-content: center;
-  margin: 1.5rem;
-  font-size: 0.8rem;
+.about-story h2 {
+  font-size: 1.4rem;
 }
 
-.pricing-rates {
+
+/* About Aside */
+aside {
+  border: 0.1rem solid black;
+  box-sizing: border-box;
+  margin: 0 1rem 1rem 1rem;
+  overflow: hidden;
+  padding: 0 0 0.7rem 0;
+  position: relative;
+  text-align: right;
+  width: 33%; 
+}
+aside section {
+  width: 100%;
+  }
+aside figure {
+  margin: auto;
+}
+aside figcaption {
   text-align: center;
+}
+aside h3 {
+  text-align: center;
+  margin: 0.7rem;
+}
+aside p {
+  float: left;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin: 0.2rem 0 0 0;
+  text-align: left;
+  width: 50%;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  width: auto; 
+}
+
+/* rates.html */
+.pricing h2, .pricing h3, .pricing-rate h2{
+  font-size: 2rem;
   font-weight: bold;
 }
-
-
-ul {
-  padding: 1rem 0rem 0rem 1rem;
-  list-style-type: none;
-  letter-spacing: 0.1rem;
+.princing-info p{
+  font-size: 1.4rem;
+  
 }
 
+/* about.html */
 
-.footer-email {
-  color: #b10000;
-}
-
-
-footer {
-  clear: both;
-  font-size: 0.9rem;
-  position: absolute;
-  bottom: 0rem;
+main{
+  color: black;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  background-color:white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2rem 0 3rem 0.5rem;
   width: 100%;
-  height: 9rem;
-  right left: 0rem;
-  background: black;
-  color: white;
-  list-style-type: none;
-
+}
+.about-kitties h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.about p{
+  font-size: 1.4rem;
 }
 
+/* Footer */
+footer {
+  background-color:black;
+  clear: both;
+  font-size: 0.8rem;
+  line-height: 0.3rem;
+  padding: 0.6rem 0 0.4rem 0.6rem;
+}
+footer a {
+  font-size: 0.8rem;
+}
+footer p {
+  color: white;
+}
 .footer-copyright {
-  letter-spacing: 0.1rem;
   text-align: center;
-  font-size: 0.7rem;
+}
+

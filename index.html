@@ -1,39 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="utf-8">
-    <title> Kittens To Go!</title>
-    
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css"/>
-    
+    <title>Kitties To Go!</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
   </head>
   <body>
     <header>
-      <a href="#">Open right MEOW! Book a cat &rarr;</a>
+      <h1>Kitties To Go!</h1>
+      <h3>Seattle's premiere drive-thru cat rentals</h3>
+      <a href="bookacat.html">Open right MEOW! Book a cat &#8594;</a>
     </header>
-    
-    <h1> Kittens To Go!</h1>
-     <h3> Seattle's premiere drive-thru rentals</h3>
     <nav>
-      <li>
-        <a href="about.html">About</a>
-      </li>
-      <li>
-        <a href="pricing.html">Rates</a>
-      </li>
-      <li>
-        <a href="">Liability Release</a>
-      </li>
-      <li>
-        <a href="index.html">Kitty Profiles </a>
-      </li>
-      <li> 
-        <a href="#">Book a Cat</a>
-      </li>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="pricing.html">Rates</a></li>
+        <li><a href="#">Liability Release</a></li>
+        <li><a href="index.html">Kitty Profiles</a></li>
+        <li><a href="#">Book a Cat</a></li>
+      </ul>
     </nav>
-   
-    <article>
+    <main class="about-story">
+      <section class="story-paragraph">
+        <h2>The Kitties To Go story</h2>
+        <p>Cat ipsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk away destroy the blinds for curl into a furry donut swat turds around the house kick up litter thug cat stare at ceiling light. Intently stare at the same spot paw at beetle and eat it before it gets away scamper.</p>
+      </section>
+      
+      <section class="testimonilas">
+        <h2>Testimonials</h2>
+        <p>"Please stop looking at your phone and pet me. Lounge in doorway eat and than sleep on your face meowwww meowwww" - Jeremy</p>
+        <p>"Meow get video posted to internet for chasing red dot." - Jenny from the block</p>
+      </section>
+     
+      <aside>
+        <section>
+          <h3>Cat of the Week</h3>
+          <figure>
+            <img src="http://i.imgur.com/KrM3y8Q.jpg?1" alt="black and white cat on black wrecking ball" > 
+            <figcaption>The Biscuit</figcaption>
+          </figure>
+            <p>All she wants is to break your walls</p>
+            <a href="bookacat.html">Book Now &#8594;</a>
+        </section>
+        <section>
+          <h3>Fan Favorite</h3>
+          <figure>
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/92/9d/3d/929d3d9f76f406b5ac6020323d2d32dc.jpg"  alt="grey and white cat" >
+            <figcaption>Odin</figcaption>
+          </figure>
+            <a href="bookacat.html">Book Now &#8594;</a>
+        </section>
+      </aside>
+    </main>
+    
+        <!-- <main class="about">
+        <section class="kittens-to-go">
+        <h2>The Kitties To Go story</h2>
+        <p>Cat ipsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk away destroy the blinds for curl into a furry donut swat turds around the house kick up litter thug cat stare at ceiling light. Intently stare at the same spot paw at beetle and eat it before it gets away scamper.</p>
+        </section>
+      
+        <section class="testimonials">
+        <h2>Testimonials</h2>
+        <p>"Please stop looking at your phone and pet me. Lounge in doorway eat and than sleep on your face meowwww meowwww" - Jeremy</p>
+        <p>Meow get video posted to internet for chasing red dot." - Jenny from the block</p>
+         </section>
+         
          <aside>
           <h3>Cat of the Week</h3>
           <figure>
@@ -41,7 +73,6 @@
           </figure>
            <figcaption>The Biscuit</figcaption>
           <p>All she wants is to break your walls.</p>
-           <br>
           <a href="#"> Book Now &rarr;</a>
           
           <h3>Fan Favorite</h3>
@@ -50,30 +81,22 @@
           </figure>
           <figcaption> Odin</figcaption>
           <a href="#"> Book Now &rarr;</a> 
-        </aside>
-      <section>
+        </aside> 
      
-      <h2> The Kitties To Go Story</h2>
-      <p class="kittens-to-go-story"> Cat impsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk away destroy the blinds fro curl into a furry donut swat turds around the house kick up litter thug cat stare at ceiling light. Intently stare at the same spot paw at beetle and eat it before it gets away scamper.</p>
-      
-      <h2> Testimonials</h2>
-      <p class="testimonials"> "Please stop looking at your phone and pet me. Lounge in doorway eat and than sleep on your face meowwww meowwww" - Jeremy </p>
-      <p class="testimoials">"Meow get video posted to internet for chasing red dot" - Jenny from the block</p>
-       </section>
-     
-    </article>
+    </main>-->
     
     <footer>
-      <ul>
-        <li> Kittens To Go! </li>
-        <li> (555) 867-5309 </li>
-        <li> <a class="footer-email" href="#"> kittiestogo@catmail.com</a></li>
-      </ul>
-      <ul class="footer-copyright">
-        <li> Please Cat Responsibly </li>
-        <li>copyright <time datetime="2016"> 2016  </time> Kittens To Go!, LLC </li>
+      <section>
+        <p> Kittens To Go! <p>
+        <p> (555) 867-5309 <p>
+        <a href="mailto:kittiestogo@catmail.com">kittiestogo@catmail.com</a>
+        </section>
       
-      </ul>
+      <section class="footer-copyright">
+        <p>Please Cat Responsibly</p>
+        <p>copyright <time datetime="2016"> 2016  </time> Kittens To Go!, LLC <p>
+    
+      </section>
     </footer> 
   
   </body>
